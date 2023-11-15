@@ -1,0 +1,29 @@
+{
+    "id": "solidity-with-foundry",
+    "version": "1.0.0",
+    "name": "EVM Smart Contract Auditing",
+    "description": "A Template that provides you with some of the basic tools to do security audits of Solidity based smart contracts for Ethereum with Foundry.",
+    "documentationURL": "https://github.com/KerimZ/smart-contract-devcontainer-templates/master/src/smart-contract-devcontainer-templates",
+    "licenseURL": "https://github.com/KerimZ/smart-contract-devcontainer-templates/blob/master/LICENSE",
+    "options": {
+        "imageVariant": {
+            "type": "string",
+            "description": "Node.js version (use -bullseye variants on local arm64/Apple Silicon):",
+            "proposals": [
+				"20",
+                "18",
+                "16",
+				"20-bullseye",
+                "18-bullseye",
+                "16-bullseye",
+				"20-buster",
+                "18-buster",
+                "16-buster"
+            ],
+            "default": "20"
+        }
+    },
+    "platforms": [
+        "Any"
+    ]
+}

@@ -1,0 +1,14 @@
+// See https://containers.dev/implementors/json_reference/ for configuration reference
+// See https://containers.dev/implementors/templates/ for template metadata reference
+
+{
+	"name": "EVM Smart Contract Auditing",
+	"build": {
+		"dockerfile": "Dockerfile"
+	}
+
+	// 👇 Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "cat /usr/local/etc/greeting.txt"
+
+	// "remoteUser": "node"
+}
